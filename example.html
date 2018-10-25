@@ -1,0 +1,16 @@
+<script>
+function display()
+{
+document.write("Name : "+this.name + " <br>")
+document.write("Address : "+this.add + " <br>")
+}
+function person(name,add)
+{
+this.name= name;
+this.add=add;
+this.disp=display;
+}
+
+A=new person("bhargav","bangalore");
+A.disp()
+</script>

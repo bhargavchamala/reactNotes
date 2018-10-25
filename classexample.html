@@ -1,0 +1,26 @@
+<script>
+
+class Polygon{
+	constructor(height,width){
+	this.h=height;
+	this.w=width;
+	}
+	test(){
+	console.log("height of polygon = ",this.h)
+	}
+	static disp(){
+	console.log("static function called");
+	}
+	}
+	class rect extends Polygon{
+	constructor(height,width){
+	super(height,width);
+	}
+	test(){
+	super.test();
+	console.log("dsfsdf")}
+	}
+	var polyobj= new Polygon(10,20); polyobj.test();
+	var rectObj = new rect(40,50); rectObj.test();
+	</script>
+	

@@ -1,0 +1,9 @@
+INDEX VERSION 1.4+C:\Users\User\Desktop\react\ajax\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+609316155.index
+3303529167.index
+160212795.index
+1794832342.index
+3959841441.index
+1028429367.index
+1384625695.index
+1333174932.index

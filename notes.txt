@@ -1,0 +1,10 @@
+A webpage hirarchy -> window -> document -> form -> element.
+
+
+types to declare variables 
+1) Var
+2)this
+3)privelage or default variable -> similar to protected and has global scope in a script
+
+
+hirarchy of variables -1) private 2)previlages 3)public

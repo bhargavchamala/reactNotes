@@ -1,0 +1,38 @@
+<script>
+	function person(){
+		var v=" I wont be printed";
+		this.v1="I will be printed";
+		v2="I will be visible only without object reference in call";
+		
+		var v3= function(){
+		console.log("private");
+		}
+		this.v4=function(){
+		console.log("public");
+		}
+		v5=function(){
+		v3();
+		console.log("pre or protected");
+		}
+		}
+		person.prototype.v6="I am outside variable";
+		person.prototype.v7=function(){
+		console.log("I am outside function");
+		}
+		
+		function child(){
+		}
+		
+		child.prototype=new person();
+		
+		p=new person();
+		c=new child();
+		console.log(p.v);
+		console.log(p.v1);
+		console.log(v2);
+		//p.v3();
+		p.v4();
+		v5();
+		console.log(c.v6);
+		c.v7();
+</script>
